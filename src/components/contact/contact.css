@@ -1,0 +1,168 @@
+.contact{
+    height: 100vh;
+    position: relative;
+}
+
+.contact-bg{
+    width: 20px;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(124,8,102,1) 100%);
+    position: absolute;
+}
+/*background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,105,1) 35%, rgba(0,212,255,1) 100%);*/
+.contact-wrapper{
+padding: 50px;
+display: flex;
+}
+
+.contact-left{
+    flex: 1
+}
+
+.contact-title{
+    font-size: 50px;
+    font-family: 'Chilanka', cursive;
+    width: 80%;
+}
+
+.contact-right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.contact-info-item{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: 300;
+    width: 70%;
+}
+
+.contact-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.contact-desc{
+    font-weight: 200;
+}
+.contact-icon-cv{    
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 2.5;
+    background-color: #48C9B0;
+    color: white;
+    border-radius: 5px;
+    font-weight:700;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.contact-icon-cv:hover{
+    border: solid 1px  #48C9B0;
+    background-color: #06F0AA;
+    color: black;
+    border-radius: 5px;
+}
+#contact-icon-in{
+    text-decoration-line: none;
+    color:blue;
+}
+
+form{
+    margin-top: 20px;
+}
+
+input{
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-bottom: solid 1px black;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    color: black;
+    font-weight: 800;
+}
+
+button{
+    border: none;
+    width: 100px;
+    height: 40px;
+    background-color: #48C9B0;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+button:hover{
+    border: solid 2px  #48C9B0;
+    background-color: #06F0AA;
+    color: black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px){
+    .contact-wrapper{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .contact-title{
+        font-size: 40px;
+    }
+    .contact-info-item{
+        margin: 15px 0;
+        width: 100%;
+    }
+    form{
+        margin-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input{
+        width: 90%;
+        margin-bottom: 3px;
+    }
+    textarea{
+        width: 90%;
+    }
+    .contact-icon-cv{
+      
+        outline: none;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 0.625;
+        width: 40%;      
+        text-align: center;
+        line-height: 1.5;
+    }
+
+.contact-icon-cv:hover{
+    border: solid 1px  #48C9B0;
+    background-color: #06F0AA;
+    color: black;
+    border-radius: 5px;
+}
+}
