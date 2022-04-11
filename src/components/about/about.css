@@ -73,6 +73,7 @@
     display: none;
   }
   .about-right{
+  flex:0.5;
    align-items: center;
    justify-content: center;
    text-align: center;

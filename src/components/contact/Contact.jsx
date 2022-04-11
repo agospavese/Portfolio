@@ -6,7 +6,7 @@ import In from "../../img/in.png"
 import { useContext, useRef, useState } from "react"
 import emailjs from '@emailjs/browser'
 import { ThemeContext } from "../../context"
-import Cv from "../../docs/CV.pdf"
+import Cv from "../../docs/CV.png"
 
 
 function Contact() {
@@ -42,7 +42,7 @@ function Contact() {
                            </div>
                            <div className="contact-info-item">
                            <img  src={In} alt="" className="contact-icon" />
-                          <a href="https://www.linkedin.com/in/maria-agostina-pavese-0a3a05182/" id="contact-icon-in">Ver LinkedIn</a>
+                          <a href="https://www.linkedin.com/in/maria-agostina-pavese/" id="contact-icon-in">Ver LinkedIn</a>
                            </div>
                            <div className="contact-info-item">
                                <img src={CVimg} alt="" className="contact-icon" />

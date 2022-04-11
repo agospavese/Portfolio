@@ -72,10 +72,15 @@ display: flex;
     background-color: #06F0AA;
     color: black;
     border-radius: 5px;
+    
+    
 }
 #contact-icon-in{
     text-decoration-line: none;
-    color:blue;
+    color: blue;
+    font-weight:700;
+    font-family: "Roboto";
+    
 }
 
 form{
