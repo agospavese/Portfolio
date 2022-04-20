@@ -6,7 +6,7 @@ import In from "../../img/in.png"
 import { useContext, useRef, useState } from "react"
 import emailjs from '@emailjs/browser'
 import { ThemeContext } from "../../context"
-import Cv from "../../docs/CV.png"
+import Cv from "../../docs/CV.pdf"
 
 
 function Contact() {
