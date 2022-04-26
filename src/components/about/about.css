@@ -46,7 +46,7 @@
 }
 
 .about-sub {
-  margin: 20px 0px;
+  margin: 10px 0px;
 }
 
 .about-desc{
@@ -73,7 +73,6 @@
     display: none;
   }
   .about-right{
-  flex:0.5;
    align-items: center;
    justify-content: center;
    text-align: center;
@@ -82,7 +81,7 @@
   }
 
   .about-title{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 
