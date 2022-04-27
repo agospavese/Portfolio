@@ -60,7 +60,8 @@
   }
   .about-left{
     width: 100%;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom:20px;
   }
   .about-card {
     width: 70%;
@@ -78,8 +79,9 @@
    text-align: center;
    margin-left: 10px;
    margin-right: 10px;
+   flex:0.5;
   }
-
+ 
   .about-title{
     font-size: 30px;
   }
