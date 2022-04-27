@@ -142,7 +142,10 @@ button:hover{
     .contact-wrapper {
         flex-direction: column;
         padding: 15px 50px;
+    }
 
+    .contact-right{
+        margin-top: 20px;
     }
 
     .contact-title {

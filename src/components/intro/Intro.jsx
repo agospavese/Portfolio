@@ -11,13 +11,13 @@ function Intro() {
                 <h1 className="i-name">Agostina Pavese</h1>
                 <div className="i-title">
                     <div className="i-title-wrapper">
-                        <div className="i-title-item">FullStack Web Developer</div>
+                        <div className="i-title-item">Full Stack Web Developer</div>
                         <div className="i-title-item">Secretaria</div>
                         <div className="i-title-item">Pastelera Profesional</div>
                     </div>
                 </div>    
                 <p className="i-desc">
-                Soy FullStack Web Developer, creadora de estilos, sitios web modernos y e-commerces.    
+                Soy Full Stack Web Developer, creadora de estilos, sitios web modernos y e-commerces.    
                 </p>
               </div>
             <svg
